@@ -1,0 +1,1 @@
+export { MandrillGeneric } from './MandrillGeneric'
