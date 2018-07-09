@@ -15,7 +15,7 @@
     "mandrill",
     "email",
     "trailpack",
-    "trails",
+    "fabrix",
     "trailjs"
   ],
   "scripts": {
@@ -56,7 +56,7 @@
     "typescript": "~2.8.1"
   },
   "peerDependencies": {
-    "@fabrix/spool-generics": "^1.0.1"
+    "@fabrix/spool-generics": "^1.0.3"
   },
   "engines": {
     "node": ">= 7.6.0 =< 10.0.0",
