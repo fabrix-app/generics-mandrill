@@ -5,7 +5,7 @@ const smokesignals = require('smokesignals')
 
 module.exports = _.defaultsDeep({
   pkg: {
-    name: require('../package').name + '-test'
+    name: require('../../package').name + '-test'
   },
   api: {},
   config: {
@@ -17,7 +17,7 @@ module.exports = _.defaultsDeep({
     },
     generics: {
       mandrill: {
-        adapter: require('../dist').MandrillGeneric,
+        adapter: require('../../dist/index').MandrillGeneric,
         config: {
           // Mandrill API key
           key: '-ynu-rQJlGEbvaKEIQS30w', // process.env.MANDRILL_KEY,

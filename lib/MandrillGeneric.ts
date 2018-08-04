@@ -1,7 +1,8 @@
 import * as mandrill from 'mandrill-api/mandrill'
 import { defaults } from 'lodash'
+import { Generic } from '@fabrix/spool-generics'
 
-export class MandrillGeneric {
+export class MandrillGeneric extends Generic {
   public config: {
     // Mandrill API key
     key: string
@@ -11,10 +12,6 @@ export class MandrillGeneric {
     protocol: string
     // The ReplyTo field in Mandrill templates
     reply_to: string
-  }
-
-  constructor(config) {
-    this.config = config
   }
 
   /**
